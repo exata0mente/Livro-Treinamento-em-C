@@ -5,6 +5,8 @@
   Exercício 40: Escreva uma funcao que receba o ano como argumento e retorne 1 se for um
   ano bissexto e 0 se nao for. Um ano e' bissexto se for divisivel por 4, mas nao por 100.
   Um ano tambem e' bissexto se for divisivel por 400.
+  
+  Resolução comentada em: https://www.youtube.com/watch?v=V8jurFYZIh0
 
 */
 
