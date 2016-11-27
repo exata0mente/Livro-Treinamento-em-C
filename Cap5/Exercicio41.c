@@ -10,6 +10,8 @@
     (367 * (mes - 2 - 12 * ((mes - 14) / 12))) / 12 -
     (3 * ((ano + 4900 + (mes - 14) / 12) / 100)) / 4 +
     dia - 32075
+    
+    Resolução comentada em: https://www.youtube.com/watch?v=gFtNVvqZMSM
 */
 
 #include <stdio.h>
