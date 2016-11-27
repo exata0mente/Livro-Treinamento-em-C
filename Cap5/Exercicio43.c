@@ -20,6 +20,8 @@
   17/01/2016 - 2457405
   15/04/1825 - 2387732
   01/01/2001 - 2451911
+  
+  Resolução comentada em: https://www.youtube.com/watch?v=ga_eSwyJ_wc
 
 */
 
