@@ -7,6 +7,7 @@
   um programa que mostre que a afirmacao eh verdadeira para todo numero par entre 700 e 1100. O programa
   deve imprimir cada numero e os primos correspondentes. Use a funcao do exercicio anterior.
 
+  Resolução comentada em: https://www.youtube.com/watch?v=n6C7ZRtAFPs
 */
 
 #include <stdio.h>
