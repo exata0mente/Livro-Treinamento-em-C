@@ -5,6 +5,7 @@
   Exercício 38: Um numero primo eh qualquer inteiro positivo divisivel apenas por si proprio e por 1. Escreva uma funcao que
   receba um inteiro positivo e, se este numero for primo, retorne 1, caso contrario, 0.
 
+  Resolução comentada em: https://www.youtube.com/watch?v=tjsegCBwds0
 */
 
 #include <stdio.h>
