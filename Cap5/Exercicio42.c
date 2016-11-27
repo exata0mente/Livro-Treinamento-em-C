@@ -14,6 +14,8 @@
     4 - Sexta-Feira
     5 - Sabado
     6 - Domingo
+    
+    Resolução comentada em: https://www.youtube.com/watch?v=3dBLZXWzNU8
 */
 
 #include <stdio.h>
