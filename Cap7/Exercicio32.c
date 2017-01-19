@@ -20,6 +20,7 @@
 
 int stricmp(char[], char[]);
 void le_string(char[]);
+void strlwr(char[]);
 void informa_dif(int);
 
 
@@ -30,6 +31,8 @@ int main(){
 
     le_string(str1);
     le_string(str2);
+    strlwr(str1);
+    strlwr(str2);
     dif_ASCII = stricmp(str1, str2);
     informa_dif(dif_ASCII);
 
@@ -42,6 +45,18 @@ void le_string(char str_temp[]){
     scanf("%s", str_temp);
 
 }
+
+void strlwr(char conv_palavra[]){
+
+    int i;
+    for(i = 0; i < T; i++){
+        if(conv_palavra[i] == '\0')
+            break;
+        conv_palavra[i] = conv_palavra[i] >= 'A' && conv_palavra[i] <= 'Z' ? conv_palavra[i] + 32 : conv_palavra[i];
+    }
+
+}
+
 
 int stricmp(char str1_comp[], char str2_comp[]){
 
