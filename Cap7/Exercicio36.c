@@ -31,7 +31,7 @@ int le_inteiro(int); /*Protótipo da função que fará a leitura da posição q
 void mostra_nova_str(char[]); /*Protótipo da função que mostrará a nova string*/
 
 int main(){
-	
+
 	char str[T];
 	char ch;
 	int pos, qnt_ch_str;
@@ -101,26 +101,13 @@ return pos_temp;
 
 void strins(char str_temp[], char ch_temp, int pos_temp){
 	/*
-		Esta função está muito simples pois o trabalho maior dela já foi realizado pela função conta_caractere_string(). Após esta função, deixarei
-		a definição de uma que já tenha a contagem de caracteres "embutida"
+		Esta função está muito simples pois o trabalho maior dela já foi realizado pela função conta_caractere_string().
 	*/
 
 	str_temp[pos_temp] = ch_temp;
 
 }
 
-/*
-void strins(char str_temp[], char ch_temp, int pos_temp){
-
-	int i;
-
-	for(i = 0; str_temp[i] != '\0'; i++){
-	}
-
-	str_temp[pos_temp] = ch_temp;
-
-
-	*/
 
 void mostra_nova_str(char str_temp[]){
 
